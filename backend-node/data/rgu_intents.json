@@ -1,0 +1,730 @@
+{
+  "intents": [
+    {
+      "tag": "fee_redirect",
+      "patterns": [
+        "fee structure",
+        "fees",
+        "fee details",
+        "how much is the fee",
+        "what is the fee",
+        "what are the fees",
+        "course fee",
+        "course fees",
+        "hostel fee details",
+        "hostel fees",
+        "tuition fee",
+        "tuition fees",
+        "total fee",
+        "total fees",
+        "fee payment",
+        "how much does it cost to study",
+        "what is the cost of studying",
+        "semester fee",
+        "annual fee",
+        "mess fee"
+      ],
+      "responses": [
+        "The tuition fees are: B.E / B.Tech (₹1,50,000/yr), BBA (₹80,000/yr), B.Com (₹75,000/yr), B.Sc (₹70,000/yr), and MBA (₹2,00,000/yr).",
+        "Hostel fees range from ₹50,000 to ₹1,20,000 per year depending on the room type, plus an additional ₹45,000 for mess charges.",
+        "For a full breakdown of specific course fees and payment plans, the tuition fees start around ₹70,000/yr for arts/science and go up to ₹2,00,000/yr for PG programs."
+      ]
+    },
+    {
+      "tag": "admission_apply",
+      "patterns": [
+        "how to apply",
+        "how do I apply",
+        "application process",
+        "how to get admission",
+        "how to enroll",
+        "how to join",
+        "admission process",
+        "how to register",
+        "apply online",
+        "apply for admission",
+        "where to apply",
+        "steps to apply"
+      ],
+      "responses": [
+        "Admissions are open for the academic year 2026-27. You can apply online through the website or submit the application form offline on campus. For assistance, contact +91 84484 48909.",
+        "To apply: 1) Fill the application form online or visit campus. 2) Submit required documents (10th, 12th marksheets, TC, photos, Aadhar).",
+        "The admission process is simple — apply online through the website or visit the campus directly. Required documents include 10th and 12th marksheets, Transfer Certificate, and ID proof. For scholarship, take the RSTNAT exam."
+      ]
+    },
+    {
+      "tag": "placement_companies",
+      "patterns": [
+        "which companies partner with RGU for placements",
+        "placement companies",
+        "who hires from RGU",
+        "top recruiters",
+        "partner companies",
+        "companies for placements",
+        "who recruits"
+      ],
+      "responses": [
+        "RGU partners with top global recruiters including ServiceNow, TCS, Infosys, IBM, ZOHO, Autodesk, Wipro, Capgemini, Deloitte, Accenture, and Paloalto. Over 57 recruiters visited in recent drives!"
+      ]
+    },
+    {
+      "tag": "certifications_offered",
+      "patterns": [
+        "what kind of certifications do students get",
+        "certifications",
+        "professional certs",
+        "what certs",
+        "global certifications",
+        "which certifications are offered"
+      ],
+      "responses": [
+        "Through our Semester Skill Certification Programme (SSCP), you earn global credentials from top tech giants. Examples include Google IT Support, IBM Full Stack Software Developer, AWS Cloud Solutions Architect, Meta Database Engineer, Palo Alto Networks Cybersecurity, and Microsoft Power BI Data Analyst."
+      ]
+    },
+    {
+      "tag": "hostel_overview",
+      "patterns": [
+        "hostel",
+        "tell me about hostel",
+        "hostel details",
+        "hostel information",
+        "is hostel available",
+        "hostel facility",
+        "accommodation details",
+        "staying facility",
+        "where to stay"
+      ],
+      "responses": [
+        "Separate on-campus hostel facilities are available for male and female students, located approximately 500 meters from the academic blocks. Room options include Premium (AC), Deluxe, Four sharing, and Dormitory. Hostel accommodation is optional.",
+        "RGU provides well-maintained hostels with options ranging from single rooms to dormitory-style accommodation. Rooms are furnished with beds, study tables, chairs, and wardrobes, with 24/7 Wi-Fi, water, and electricity.",
+        "Hostels feature 24/7 CCTV surveillance, resident wardens, gym, library access, laundry service, medical support, indoor games, and campus shops nearby. Accommodation capacity is 200-324+ students."
+      ]
+    },
+    {
+      "tag": "hostel_food",
+      "patterns": [
+        "food",
+        "food and mess",
+        "mess food",
+        "hostel food",
+        "what food is served",
+        "is non veg available",
+        "veg food hostel",
+        "meals hostel",
+        "canteen",
+        "cafeteria"
+      ],
+      "responses": [
+        "Vegetarian and non-vegetarian meals are provided in the hostel mess, with non-vegetarian options typically served on Sundays. Meals are prepared in a hygienic, home-style manner.",
+        "The campus has multiple canteens and a central cafeteria serving both vegetarian and non-vegetarian meals, operating from 8:00 AM to 5:00 PM. Hostel mess provides regular meals for hostellers.",
+        "Hostel residents receive freshly prepared home-style meals daily. Non-veg options are available on designated days. The campus cafeteria offers additional food choices throughout the day."
+      ]
+    },
+    {
+      "tag": "ai_skills_engineering",
+      "patterns": [
+        "AI skills for engineering students",
+        "what AI skills should engineers learn",
+        "best AI tools for engineering students",
+        "how to start AI engineering",
+        "AI learning path engineering"
+      ],
+      "responses": [
+        "The most valuable AI skills for engineering students include Python, machine learning frameworks, cloud AI deployment, and generative AI tools.",
+        "Start with Python, NumPy, Pandas, and Scikit-learn, then move to TensorFlow or PyTorch for deep learning.",
+        "Generative AI tools like Hugging Face, LangChain, and OpenAI APIs are among the fastest-growing skills.",
+        "Cloud platforms like AWS SageMaker and Google Vertex AI are essential for deploying real-world AI systems.",
+        "At RGU, students learn all these tools through hands-on projects from semester one."
+      ]
+    },
+    {
+      "tag": "ai_skills_mba",
+      "patterns": [
+        "AI skills for MBA students",
+        "what AI should management students learn",
+        "AI tools for business students",
+        "do MBA students need coding for AI",
+        "AI for managers"
+      ],
+      "responses": [
+        "MBA students don't need coding but must master AI-powered business tools to stay competitive.",
+        "AI tools help managers make decisions faster and improve productivity significantly.",
+        "Key tools include ChatGPT, Claude, Power BI, Tableau, and Microsoft Copilot.",
+        "CRM and marketing tools like Salesforce Einstein and HubSpot AI are widely used in industry.",
+        "At RGU, MBA students use these tools in real business simulations and projects."
+      ]
+    },
+    {
+      "tag": "ai_tools_daily_mba",
+      "patterns": [
+        "daily AI tools for MBA",
+        "which AI tools should I use daily",
+        "best AI tools for managers",
+        "AI tools for productivity MBA",
+        "top AI software for business students"
+      ],
+      "responses": [
+        "Top AI tools for daily use include ChatGPT or Claude for research and writing tasks.",
+        "Power BI and Tableau help turn data into actionable insights for decision-making.",
+        "Microsoft Copilot boosts productivity across Word, Excel, and Teams.",
+        "Salesforce Einstein improves sales forecasting and customer relationship management.",
+        "Canva AI and Adobe Firefly allow quick creation of marketing content without design skills."
+      ]
+    },
+    {
+      "tag": "placements_salary",
+      "patterns": [
+        "RGU placements",
+        "salary after RGU",
+        "job opportunities RGU",
+        "highest package RGU",
+        "placement details"
+      ],
+      "responses": [
+        "RGU students have achieved placements up to ₹3 Crore per annum.",
+        "Many students secure packages between ₹45 LPA and ₹58 LPA.",
+        "Top hiring roles include AI, Data Science, and Cybersecurity.",
+        "Students build industry connections inside the IT Park throughout their degree.",
+        "Career readiness starts from semester one with continuous skill and profile development."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "RGU facilities",
+        "campus facilities",
+        "labs and infrastructure",
+        "what facilities are provided",
+        "college infrastructure details"
+      ],
+      "responses": [
+        "RGU provides an IT Park campus with 50+ active tech companies.",
+        "Every student gets a MacBook pre-configured with industry tools.",
+        "AI Skills Lab powered by Dell and Intel supports real project development.",
+        "Students work in collaborative live project environments.",
+        "Internships are integrated into every semester for continuous exposure."
+      ]
+    },
+    {
+      "tag": "culture",
+      "patterns": [
+        "RGU culture",
+        "campus life culture",
+        "student environment",
+        "learning culture",
+        "how is life at RGU"
+      ],
+      "responses": [
+        "RGU has a professional, tech-driven culture similar to a corporate environment.",
+        "AI tools are integrated into daily learning across all subjects.",
+        "Students collaborate in teams and follow real industry workflows.",
+        "There is strong focus on innovation, startups, and entrepreneurship.",
+        "Hackathons and industry challenges are regularly conducted."
+      ]
+    },
+    {
+      "tag": "ai_tools_engineering",
+      "patterns": [
+        "AI tools for engineers",
+        "tools for machine learning",
+        "best AI software engineering students",
+        "ML tools list",
+        "AI frameworks list"
+      ],
+      "responses": [
+        "Core AI tools include TensorFlow, PyTorch, Scikit-learn, and Keras for machine learning.",
+        "Data tools like Pandas, NumPy, and Jupyter Notebook are essential for data processing.",
+        "NLP and LLM tools include Hugging Face, LangChain, and OpenAI APIs.",
+        "Computer vision tools like OpenCV and YOLO are widely used in industry.",
+        "Cloud platforms such as AWS SageMaker, Google Vertex AI, and Azure AI are key for deployment."
+      ]
+    },
+    {
+      "tag": "choose_engineering",
+      "patterns": [
+        "Why should I choose engineering?",
+        "Is engineering a good career?",
+        "Benefits of engineering",
+        "Why study engineering",
+        "Engineering career scope",
+        "Is engineering worth it"
+      ],
+      "responses": [
+        "Engineering offers strong career stability, high salaries, and global opportunities.",
+        "If you enjoy solving problems and working with technology, engineering is a great choice.",
+        "Engineers build the technology and systems that power the modern world.",
+        "With growing demand in AI and digital fields, engineering has excellent future scope."
+      ]
+    },
+    {
+      "tag": "best_programmes_2025",
+      "patterns": [
+        "best engineering courses in 2025",
+        "top engineering programmes in 2025",
+        "which engineering has best future",
+        "highest value engineering degree",
+        "most valuable tech courses for jobs"
+      ],
+      "responses": [
+        "The highest-value engineering programmes for 2025–2030 include B.E. CSE, B.E. CSE with AI/ML, B.E. CSE with Cybersecurity, and B.Tech AI & Data Science.",
+        "India needs over 1 million AI and data science professionals by 2026, making AI-focused degrees extremely valuable.",
+        "Cloud computing and tech roles are growing rapidly, with global demand increasing every year.",
+        "Top programmes include CSE, AI & ML, Cybersecurity, and Data Science."
+      ]
+    },
+    {
+      "tag": "best_branch_future",
+      "patterns": [
+        "Which engineering branch is best?",
+        "Best engineering branch for future",
+        "engineering courses with best future scope",
+        "Which branch has highest salary",
+        "Future scope engineering branches"
+      ],
+      "responses": [
+        "Top future-focused branches include Computer Science, AI & ML, Cybersecurity, and Data Science.",
+        "Fields like AI and Cybersecurity have high demand and strong salary growth.",
+        "Choosing the best branch depends on your interests and career goals."
+      ]
+    },
+    {
+      "tag": "cse_ai_ml",
+      "patterns": [
+        "Tell me about CSE",
+        "AI ML scope",
+        "Computer science jobs",
+        "Is AI good career"
+      ],
+      "responses": [
+        "Computer Science and AI/ML are among the most in-demand and high-paying fields.",
+        "These fields involve building apps, software, and intelligent systems.",
+        "Career roles include software developer, AI engineer, and data engineer.",
+        "The demand for skilled professionals in AI and software is rapidly increasing."
+      ]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": [
+        "What is cybersecurity",
+        "Cybersecurity jobs",
+        "Is cybersecurity good career",
+        "Scope of cybersecurity"
+      ],
+      "responses": [
+        "Cybersecurity focuses on protecting systems, networks, and data from attacks.",
+        "It is one of the fastest-growing fields with high demand worldwide.",
+        "Career roles include security analyst, ethical hacker, and security engineer.",
+        "Due to skill shortage, cybersecurity professionals earn high salaries."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science",
+        "Data science jobs",
+        "Scope of data science",
+        "Is data science good"
+      ],
+      "responses": [
+        "Data Science involves analyzing data to gain insights and support decision-making.",
+        "It is widely used in business, healthcare, finance, and technology sectors.",
+        "Roles include data analyst, data scientist, and machine learning engineer.",
+        "Demand for data professionals is increasing rapidly across industries."
+      ]
+    },
+    {
+      "tag": "cloud_devops",
+      "patterns": [
+        "What is cloud computing",
+        "DevOps jobs",
+        "Cloud career scope",
+        "AWS jobs"
+      ],
+      "responses": [
+        "Cloud computing provides online infrastructure for storing and running applications.",
+        "DevOps focuses on automating and managing software development processes.",
+        "Most companies use cloud platforms like AWS, Azure, and Google Cloud.",
+        "This field offers strong career growth and high salary potential."
+      ]
+    },
+    {
+      "tag": "engineering_difficulty",
+      "patterns": [
+        "Is engineering hard",
+        "Is engineering difficult to study",
+        "engineering tough or easy",
+        "can I study engineering easily",
+        "why engineering is hard"
+      ],
+      "responses": [
+        "Engineering can be challenging, but it becomes manageable with the right teaching approach.",
+        "Most students struggle not because of the subject, but because of traditional teaching methods.",
+        "Project-based learning helps students understand concepts faster and apply them effectively.",
+        "When you learn by building real projects, engineering becomes easier and more engaging.",
+        "At RGU, every concept is applied through hands-on projects, making learning practical and easier to understand."
+      ]
+    },
+    {
+      "tag": "mba_value",
+      "patterns": [
+        "Why should I do MBA?",
+        "Is MBA worth it",
+        "Benefits of MBA",
+        "MBA career scope",
+        "MBA salary India",
+        "Why study MBA"
+      ],
+      "responses": [
+        "An MBA accelerates your path to leadership, increases earning potential, and builds strong business and entrepreneurial skills.",
+        "MBA graduates earn 50–80% more than non-MBA peers over time and reach senior roles faster.",
+        "Top MBA professionals in tech and management roles in India can earn ₹25–60 LPA.",
+        "An MBA combined with technology skills makes you highly valuable in today's digital economy.",
+        "At RGU, MBA integrates AI tools and technology management into every subject."
+      ]
+    },
+    {
+      "tag": "management_future",
+      "patterns": [
+        "future of management",
+        "how management will change",
+        "is management good future",
+        "future skills for managers",
+        "management trends 2030"
+      ],
+      "responses": [
+        "The future of management is tech-driven, data-focused, and human-centred.",
+        "Managers who understand AI and analytics will lead the next generation of businesses.",
+        "Automation will replace some jobs but create millions of new roles requiring management and digital skills.",
+        "Modern managers must lead remote teams, use data dashboards, and drive digital transformation.",
+        "Sustainability and ESG strategies are becoming critical leadership responsibilities."
+      ]
+    },
+    {
+      "tag": "mba_specialisations",
+      "patterns": [
+        "best MBA specialisation",
+        "top MBA courses",
+        "MBA specialisation future",
+        "which MBA has highest salary",
+        "MBA fields list"
+      ],
+      "responses": [
+        "Top MBA specialisations include Business Analytics & AI, Digital Marketing, FinTech, and Sustainability Management.",
+        "MBA in Business Analytics & AI is the most in-demand with high salary potential.",
+        "Digital Marketing and E-Commerce roles are growing due to massive global online spending.",
+        "FinTech and AI Product Management are among the highest-paying MBA fields.",
+        "Entrepreneurship and Sports Management are also emerging as strong career paths."
+      ]
+    },
+    {
+      "tag": "ai_impact",
+      "patterns": [
+        "importance of AI",
+        "AI future scope",
+        "how AI is changing world",
+        "AI impact on jobs",
+        "why AI is important"
+      ],
+      "responses": [
+        "AI is one of the most transformative technologies, expected to add trillions to the global economy by 2030.",
+        "AI is reshaping industries like healthcare, finance, manufacturing, and education.",
+        "From automation to smart decision-making, AI is improving efficiency and innovation everywhere.",
+        "AI tools are already used by developers, doctors, and businesses worldwide.",
+        "At RGU, AI is integrated into every programme from day one."
+      ]
+    },
+    {
+      "tag": "course_selection_guide",
+      "patterns": [
+        "Which course should I choose",
+        "Help me choose a course",
+        "What course is best for me",
+        "I don't know what to choose",
+        "Can you guide me on course selection",
+        "Suggest a course for me"
+      ],
+      "responses": [
+        "Course selection depends on career goals: CSE/IT is suitable for programming and technology careers; BBA/MBA for management; B.Sc Data Science or BCA for analytics; and Visual Communication for media and design. Please share your primary interests for more tailored guidance.",
+        "Course recommendations based on career interests: for software development, CSE, IT, or BCA are recommended; for business and administration, BBA, MBA, or B.Com; for scientific research, B.Sc specializations; for creative fields, Visual Communication or Journalism; and for immediate career entry, RGU programs with integrated internships.",
+        "To select an appropriate program, consider academic interests (e.g., mathematics/engineering vs. management), career goals (e.g., technical specialization vs. administration), and individual strengths. Details about your academic background can help refine these recommendations."
+      ]
+    },
+    {
+      "tag": "non_math_courses",
+      "patterns": [
+        "I don't like maths",
+        "I am weak in maths",
+        "Courses without maths",
+        "I don't have maths",
+        "Which course without maths requirement"
+      ],
+      "responses": [
+        "Several programs do not require advanced mathematics. BBA focuses on management and marketing; B.Com covers accounting and commerce; BA offers studies in English, Journalism, and Public Administration; and BCA provides computer applications with basic mathematical requirements. Visual Communication is available for creative and media careers. These fields offer placement packages ranging from ₹2.5-5 LPA.",
+        "Programs with minimal mathematics requirements include BBA and MBA (management), B.Com (commerce), BA (languages and communication), and BCA (information technology). These programs focus on practical application and communication skills, with placements at institutions such as HDFC Bank, Bandhan Bank, and Sutherland.",
+        "Options for candidates seeking programs without advanced mathematics include BBA and B.Com (business and commerce), Visual Communication and Journalism (media), BCA (computer applications), and BA in Public Administration. These programs lead to established career paths."
+      ]
+    },
+    {
+      "tag": "college_culture",
+      "patterns": [
+        "Is this college strict",
+        "Is college student friendly",
+        "College rules strict or not",
+        "How is college environment",
+        "Is attendance strict",
+        "College culture"
+      ],
+      "responses": [
+        "RGU maintains a professional and structured environment. Regulations include a mandatory 75% attendance requirement, a professional dress code, and standard academic hours from 9:00 AM to 4:00 PM. The environment is designed to prepare students for corporate discipline while offering supportive faculty and student activities.",
+        "The campus environment emphasizes professional discipline, requiring 75% attendance, adherence to a dress code, and punctuality. Alongside academic rigor, students participate in clubs, sports, and collaborative projects.",
+        "Professional standards are enforced, including attendance monitoring and dress code compliance. The curriculum and campus activities are structured to foster professional habits, supported by accessible faculty and practical project environments."
+      ]
+    },
+    {
+      "tag": "easy_courses",
+      "patterns": [
+        "Which course is easy",
+        "Easiest course",
+        "Which course has less stress",
+        "Which course is not difficult",
+        "Less workload course"
+      ],
+      "responses": [
+        "All academic programs require dedicated effort. However, BBA, B.Com, and BA focus more on practical administration and communication, presenting fewer technical requirements than engineering fields. BCA offers software training with less theoretical complexity than engineering.",
+        "B.Com, BBA, and BA programs focus on practical business and arts applications with lower technical complexity. Engineering and technology programs (CSE, IT, Data Science) carry higher technical requirements and offer higher entry-level placement packages (₹4-8 LPA).",
+        "BBA, B.Com, and BA programs are management and arts-focused, with less technical demand compared to engineering. Technology-focused programs carry greater academic requirements but offer higher entry placement packages."
+      ]
+    },
+    {
+      "tag": "worth_studying",
+      "patterns": [
+        "Is RGU worth it",
+        "Is RGU worth studying",
+        "Is this college worth it",
+        "Should I join RGU",
+        "Is RGU good",
+        "Is it worth joining",
+        "Is the college good",
+        "Is RGU a good college"
+      ],
+      "responses": [
+        "The RGU program provides industry-integrated training, including hands-on project work, AI certifications, scheduled internships, and dedicated placement services. Graduates have secured placement packages up to ₹3 Crore per annum.",
+        "The curriculum emphasizes practical projects, modern AI tools, and mentorship from industry professionals. The campus is situated within an IT Park housing over 50 technology companies, contributing to placement packages ranging from ₹45 LPA to ₹3 Crore per annum for top performers.",
+        "RGU integrates university degree education with corporate skills, practical project work, AI certifications, and internships. This structured preparation supports high employment rates and career readiness.",
+        "The program combines academic studies with corporate training, AI certifications, practical projects, and internships to prepare graduates for direct entry into the workforce."
+      ]
+    },
+    {
+      "tag": "college_worth",
+      "patterns": [
+        "Is this college worth it",
+        "Is RGU good",
+        "Is RGU worth joining",
+        "Should I join this college",
+        "Is it a good college",
+        "College reputation"
+      ],
+      "responses": [
+        "RGU is an established institution in Coimbatore known for placements, infrastructure, and industry connections. During the 2024-2025 academic year, 673 students were placed, with packages reaching up to ₹45 LPA at recruiters such as TCS, Wipro, and Accenture.",
+        "Established in 2001, RGU offers practical education, modern campus facilities, experienced faculty, and industry-integrated programs. Graduates regularly secure placements at leading organizations.",
+        "RGU emphasizes employment readiness through practical training and placement preparation, maintaining an 80% to 100% placement rate depending on the program. Recruiters include Accenture, TCS, and Infosys."
+      ]
+    },
+    {
+      "tag": "exam_failure_policy",
+      "patterns": [
+        "What happens if I fail",
+        "If I fail in exam",
+        "What if I don't pass",
+        "Can I reappear for exam",
+        "Exam failure policy",
+        "What if I fail a subject"
+      ],
+      "responses": [
+        "In the event of a failed subject, students have several options: 1) Reappearance examinations in the subsequent semester. 2) Supplementary examinations scheduled before the next semester. 3) A backlog system allowing students to progress while clearing outstanding subjects. 4) Academic counseling and remedial support from faculty.",
+        "Students failing a course are notified post-results. They may clear the backlog via reappearance exams or carry it forward. Accumulating backlogs can affect the cumulative GPA and placement eligibility, so maintaining attendance and seeking academic help is advised.",
+        "Failing a subject requires clearing it via supplementary or reappearance exams. While students can proceed with other coursework, unresolved backlogs can delay graduation, lower the overall GPA, and affect placement eligibility. The institution offers support services to help students clear backlogs."
+      ]
+    },
+    {
+      "tag": "study_abroad",
+      "patterns": [
+        "I want to go abroad",
+        "Will this help me go abroad",
+        "Can I study abroad after this",
+        "Is this college good for foreign universities",
+        "Will foreign universities accept this degree",
+        "Can I do MS after RGU",
+        "Can I go to US after engineering",
+        "Is degree valid abroad"
+      ],
+      "responses": [
+        "Degrees awarded by RGU are recognized globally, allowing graduates to pursue postgraduate study abroad. Admissions criteria typically include maintaining a high GPA, securing competitive scores on standardized tests (GRE, GMAT, IELTS, TOEFL), and providing letters of recommendation.",
+        "Graduates have successfully transitioned to MS and MBA programs in countries such as the US, UK, Canada, Germany, and Australia. Key factors for foreign admissions include undergraduate GPA, test scores, research/project portfolios, and recommendation letters.",
+        "Admissions at international universities prioritize academic performance, practical project experience, internships, and certifications. A degree from RGU, combined with a strong individual academic profile, supports applications to global institutions."
+      ]
+    },
+    {
+      "tag": "higher_studies",
+      "patterns": [
+        "higher studies",
+        "higher studes",
+        "what about higher studies",
+        "can I do masters",
+        "can I do M.Tech",
+        "what after B.Tech",
+        "what after graduation",
+        "can I do MBA after B.Tech",
+        "can I do PhD",
+        "postgraduate options",
+        "PG after engineering",
+        "what next after degree",
+        "scope after graduation",
+        "M.Tech or job",
+        "should I study further",
+        "further studies options"
+      ],
+      "responses": [
+        "After completing your degree at RGU, you have excellent higher studies options! You can pursue M.Tech, MS (abroad), MBA, or even PhD. RGU's industry-integrated curriculum, global certifications, and strong academic foundation give you a competitive edge for top PG programs in India and abroad.",
+        "Higher studies pathways after RGU include: M.Tech/ME from IITs, NITs, or top private universities; MS from US, UK, Canada, Germany, or Australia; MBA from IIMs or global business schools; and PhD for research-oriented careers. RGU's AI certifications and project portfolio give you an edge in PG admissions.",
+        "Planning for higher studies? RGU prepares you well! Our globally recognized degrees, hands-on project experience, industry certifications (Google, IBM, AWS), and strong faculty recommendations support your applications to M.Tech, MS, MBA, or PhD programs anywhere in the world."
+      ]
+    },
+    {
+      "tag": "college_disadvantages",
+      "patterns": [
+        "What are disadvantages",
+        "What are the negatives",
+        "Be honest about problems",
+        "What's bad about this college",
+        "Cons of studying here"
+      ],
+      "responses": [
+        "Considerations regarding the institution include: 1) Strict enforcement of the 75% mandatory attendance policy. 2) Enforcement of a professional dress code. 3) Focus on academics and professional placement rather than recreation. 4) Functional, academic-focused infrastructure. 5) Campus location in Eachanari, outside the main city center. These policies are designed to build professional discipline for career readiness.",
+        "Key institutional aspects to note include professional campus rules (dress code, timings from 9:00 AM to 4:00 PM), moderate campus social activities, and varying peer backgrounds. These are balanced by strong placement records, practical industry training, and accessible fees.",
+        "Characteristics of the academic experience include a strict attendance policy, a professional workplace-like environment, and functional campus facilities. The structured environment supports high placement rates and career outcomes for self-motivated students."
+      ]
+    },
+    {
+      "tag": "campus_library",
+      "patterns": [
+        "library",
+        "tell me about the library",
+        "library facilities",
+        "books available",
+        "digital library",
+        "reading room",
+        "e-journals",
+        "library resources",
+        "how many books in library"
+      ],
+      "responses": [
+        "The campus library has a collection of 10,000+ books, journals, and digital resources. It provides a quiet study environment with reading rooms and digital access to e-journals and research papers.",
+        "The library is open throughout academic hours and offers both physical books and digital resources including e-journals, research papers, and online databases for students and faculty.",
+        "RGU's library houses over 10,000 books across engineering, management, science, and arts. Digital resources and online journal access are available for academic research."
+      ]
+    },
+    {
+      "tag": "campus_labs_infra",
+      "patterns": [
+        "labs",
+        "labs and infra",
+        "labs and infrastructure",
+        "computer labs",
+        "AI lab",
+        "tell me about labs",
+        "what labs are available",
+        "infrastructure details",
+        "campus infrastructure",
+        "MACWORKS",
+        "IDEA Lab"
+      ],
+      "responses": [
+        "RGU has 8+ high-tech computer labs, including the AI Skills Laboratory certified by DELL Technologies and Intel. Other facilities include MACWORKS Centre of Excellence, Experiential Learning Hub, Hybrid Learning Hub, and R-FAB X STUDIO (IDEA Lab - CoMake Factory).",
+        "The campus features specialized labs for AI/ML and electronics. The AI Skills Lab is powered by DELL and Intel, and students also have access to the Brand Builder Studio and Hybrid Learning Hub.",
+        "Infrastructure highlights include the AI Skills Lab (DELL/Intel certified), MACWORKS Centre of Excellence for Apple ecosystem development, R-FAB X STUDIO for prototyping and innovation, and 10+ seminar halls with modern audio-visual equipment."
+      ]
+    },
+    {
+      "tag": "campus_sports",
+      "patterns": [
+        "sports",
+        "sports facilities",
+        "what sports available",
+        "gym facilities",
+        "can I play cricket",
+        "basketball court",
+        "sports coaching"
+      ],
+      "responses": [
+        "Sports facilities include grounds and courts for cricket, football, basketball, volleyball, badminton, table tennis, and chess. Professional coaching is also available.",
+        "The campus has a fully equipped gymnasium with modern fitness equipment, along with outdoor grounds for cricket, football, basketball, and other sports.",
+        "Students can participate in cricket, football, basketball, volleyball, badminton, table tennis, and chess. A modern gym and professional coaching are also available."
+      ]
+    },
+    {
+      "tag": "dream_companies",
+      "patterns": [
+        "can I get placed in google",
+        "can I get placed in microsoft",
+        "can I get placed in amazon",
+        "can I get placed in apple",
+        "can I get placed in top mnc",
+        "is it possible to get placed in google",
+        "job in microsoft",
+        "placement in google",
+        "can I go to google",
+        "can I get placed in faang"
+      ],
+      "responses": [
+        "While we do not have direct placement partnerships with FAANG companies like Google or Microsoft, our RGU program equips you with global tech certifications and strong portfolio-building skills that give you a highly competitive edge for off-campus applications to these top tech giants."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "That's a great question! I want to make sure I give you the best answer. Could you try rephrasing, or ask me about our programs, placements, or campus life?",
+        "I'd love to help! Try asking about something specific like 'best engineering branch' or 'MBA specializations' — I've got tons of info on those!",
+        "Great curiosity! I'm best at answering questions about RGU's programs, placements, scholarships, and campus life. What interests you?"
+      ]
+    },
+    {
+      "tag": "human_handoff",
+      "patterns": [
+        "talk to a human",
+        "human",
+        "speak to a person",
+        "real person",
+        "connect to agent",
+        "customer service",
+        "contact someone",
+        "call you",
+        "phone number"
+      ],
+      "responses": [
+        "I understand you'd like to speak with a human! Our admissions team would be happy to help. You can reach them directly at +91 84484 48909 or email admissions@rathinam.in. They are available Monday through Saturday, 9 AM to 5 PM."
+      ]
+    },
+    {
+      "tag": "profanity_filter",
+      "patterns": [
+        "fuck",
+        "shit",
+        "bitch",
+        "asshole",
+        "will you fuck me",
+        "shut up",
+        "dumb",
+        "stupid bot",
+        "idiot",
+        "sex"
+      ],
+      "responses": [
+        "Great curiosity! While that's outside my expertise, I'm here to help you explore everything RGU has to offer — from top programs to amazing placements!",
+        "Please refrain from using inappropriate language. I'm here to help you with anything related to RGU's programs, admissions, or campus life!",
+        "Let's keep our conversation professional. How can I assist you with your academic journey at RGU?"
+      ]
+    }
+  ]
+}

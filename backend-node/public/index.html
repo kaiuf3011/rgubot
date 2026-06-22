@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R-SMART Admissions Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Dynamic animated background -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <main class="chat-glass-panel">
+      <!-- Header -->
+      <header class="chat-header">
+        <div class="header-info">
+          <div class="avatar-container">
+            <div class="avatar-pulse"></div>
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'><path d='M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5v-1H1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73A2 2 0 1 1 12 2zm-3 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm6 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/></svg>" alt="Bot Avatar" class="bot-avatar">
+          </div>
+          <div class="header-text">
+            <h1>R-SMART Assistant</h1>
+            <span class="status"><span class="status-dot"></span> Online & Ready</span>
+          </div>
+        </div>
+        <button id="reset-btn" class="icon-btn" title="Reset Conversation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        </button>
+      </header>
+
+      <!-- Chat Area -->
+      <div class="chat-messages" id="chat-messages">
+        <div class="message-wrapper bot-wrapper fade-in">
+          <div class="message-bubble bot-bubble">
+            <p>Welcome to <strong>Rathinam Group of Institutions</strong>! 🎓</p>
+            <p>I'm your AI admissions counselor. Whether you're curious about our B.Tech programs, campus facilities, placement packages, or fee structures, I'm here to help.</p>
+            <p><em>What would you like to explore today?</em></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Suggestions Container -->
+      <div class="suggestions-container" id="suggestions-container">
+        <!-- Dynamically injected suggestions -->
+      </div>
+
+      <!-- Typing Indicator -->
+      <div class="typing-indicator" id="typing-indicator">
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+      </div>
+
+      <!-- Input Area -->
+      <div class="chat-input-wrapper">
+        <div class="input-glass">
+          <input type="text" id="user-input" placeholder="Ask about programs, fees, placements..." autocomplete="off">
+          <button id="send-btn" class="send-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+node_modules/
+.env
+debug-error.log
+coverage/
+.nyc_output/
