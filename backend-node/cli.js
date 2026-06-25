@@ -22,7 +22,7 @@ const WHITE = '\x1b[37m';
 
 // Banner
 console.log(`\n${BOLD}${CYAN}==================================================`);
-console.log(`🤖  R-SMART ASSISTANT (Terminal CLI Mode) 🚀`);
+console.log(`🤖  RGU CHATBOT ASSISTANT (Terminal CLI Mode) 🚀`);
 console.log(`==================================================${RESET}\n`);
 
 // Initialize RAG components

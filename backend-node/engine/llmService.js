@@ -350,7 +350,7 @@ export function buildFallbackHeuristicResponse(query, searchResults) {
     } else if (generalFacts.length > 0) {
       answer = generalFacts.slice(0, 3).join(" ");
     } else {
-      answer = "I don't have that specific information in my knowledge base right now. Could you please rephrase or ask about admissions, courses, placements, or campus life at RGU?";
+      answer = "I don't have that specific information in my knowledge base right now. For more details or clearing more queries, please contact Raise Smart admissions at +91 84484 48909. Could you please rephrase or ask about admissions, courses, placements, or campus life at RGU?";
     }
 
     highlights = [
