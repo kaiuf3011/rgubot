@@ -19,8 +19,6 @@ jobs:
         include:
           - image: r-smart-backend
             context: ./backend-node
-          - image: r-smart-frontend
-            context: ./frontend
     steps:
       - uses: actions/checkout@v4
       - name: Log in to GHCR
